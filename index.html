@@ -35,8 +35,24 @@
   <!-- Navigation -->
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg- rounded">
-      <a class="navbar-brand" href="#"><button class="btn btn-sm btn-outline-secondary"><i class="fas fa-cloud-download-alt">
-          </i> Resume</button></a>
+      <a class="navbar-brand" href="#">
+        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#resumePopup">
+          <i class="fas fa-cloud-download-alt"></i> Resume</button></a>
+
+          <div class="modal fade" id="resumePopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  Thank You For Your Valuable Time !! 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" data-dismiss="modal" class="btn btn-outline-danger">Close</button>
+                  <a href="mailto:jaimin.ece@gmail.com" target="_blank" class="btn btn-outline-success">Email Me</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
