@@ -47,15 +47,6 @@ background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, F
 }
 
 
-/* body { */
-  /* background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed; */
-  /* background: url("") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; */ 
-/* } */
-
 .card-img-top {
   height: 15rem;
   object-fit: cover;
@@ -72,6 +63,14 @@ background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, F
   
 }
 
+#skills-tab:hover{
+  color: blue;
+}
+
+
+#portfolio-tab:hover{
+  color:lightcoral;
+}
 
 
 
