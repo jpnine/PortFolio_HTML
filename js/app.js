@@ -20,6 +20,11 @@ $('#portfolio-tab').on('click', function () {
     $('#portfolio-content').hide(500);
   });
 
+  $('#fccButton').on('click', function () {
+    $('#FCC').toggle(500);
+    
+  });
+
 
 
  
